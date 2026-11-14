@@ -1,0 +1,115 @@
+{
+  "timestamp": "2026-11-14T05:57:24",
+  "godot": "4.7.2-stable (official)",
+  "case_filter": [],
+  "summary": {
+    "cases": 11,
+    "pass": 11,
+    "fail": 0,
+    "skip": 0,
+    "pending": 0,
+    "assert_pass": 1471,
+    "assert_fail": 0
+  },
+  "cases": [
+    {
+      "name": "fixtures",
+      "status": "PASS",
+      "passed": 372,
+      "failures": [],
+      "pending": [],
+      "skip": [],
+      "duration_ms": 288
+    },
+    {
+      "name": "class_cache",
+      "status": "PASS",
+      "passed": 35,
+      "failures": [],
+      "pending": [],
+      "skip": [],
+      "duration_ms": 9207
+    },
+    {
+      "name": "xxhash",
+      "status": "PASS",
+      "passed": 62,
+      "failures": [],
+      "pending": [],
+      "skip": [],
+      "duration_ms": 224
+    },
+    {
+      "name": "aap_roundtrip",
+      "status": "PASS",
+      "passed": 183,
+      "failures": [],
+      "pending": [],
+      "skip": [],
+      "duration_ms": 17773
+    },
+    {
+      "name": "commands",
+      "status": "PASS",
+      "passed": 233,
+      "failures": [],
+      "pending": [],
+      "skip": [],
+      "duration_ms": 298
+    },
+    {
+      "name": "core_extras",
+      "status": "PASS",
+      "passed": 139,
+      "failures": [],
+      "pending": [],
+      "skip": [],
+      "duration_ms": 1379
+    },
+    {
+      "name": "synth_fixtures",
+      "status": "PASS",
+      "passed": 192,
+      "failures": [],
+      "pending": [],
+      "skip": [],
+      "duration_ms": 383
+    },
+    {
+      "name": "resources",
+      "status": "PASS",
+      "passed": 136,
+      "failures": [],
+      "pending": [],
+      "skip": [],
+      "duration_ms": 3560
+    },
+    {
+      "name": "player_smoke",
+      "status": "PASS",
+      "passed": 38,
+      "failures": [],
+      "pending": [],
+      "skip": [],
+      "duration_ms": 2266
+    },
+    {
+      "name": "editor_smoke",
+      "status": "PASS",
+      "passed": 51,
+      "failures": [],
+      "pending": [],
+      "skip": [],
+      "duration_ms": 11402
+    },
+    {
+      "name": "main_integration",
+      "status": "PASS",
+      "passed": 30,
+      "failures": [],
+      "pending": [],
+      "skip": [],
+      "duration_ms": 11718
+    }
+  ]
+}

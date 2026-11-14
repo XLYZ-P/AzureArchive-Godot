@@ -1,0 +1,57 @@
+{
+  "CharacterOverrides": [
+    {
+      "Identifier": "01",
+      "Name": "绿",
+      "Nickname": "游戏开发部",
+      "CharacterReference": "미도리",
+      "OriginalIdentifier": null,
+      "SpinePortraitPath": null,
+      "SmallPortraitPath": null
+    },
+    {
+      "Identifier": "02",
+      "Name": "桃井",
+      "Nickname": "游戏开发部",
+      "CharacterReference": "모모이",
+      "OriginalIdentifier": null,
+      "SpinePortraitPath": null,
+      "SmallPortraitPath": null
+    },
+    {
+      "Identifier": "00",
+      "Name": "？？？",
+      "Nickname": "未知",
+      "CharacterReference": "케이",
+      "OriginalIdentifier": null,
+      "SpinePortraitPath": null,
+      "SmallPortraitPath": null
+    }
+  ],
+  "VoiceOverrides": [
+    "voices/421e3665-33e2-4c36-90a1-8747e2b9db28.ogg",
+    "voices/82897c82-cc14-455d-b127-9dc13ee377ee.ogg",
+    "voices/ee3a8b2d-abfc-45a1-bf64-da1f075617a3.ogg"
+  ],
+  "PopupOverrides": [
+    "popups/popup_synth_01.png",
+    "popups/popup_synth_02.png"
+  ],
+  "SoundOverrides": [
+    "sounds/SE_Synth_Click.wav",
+    "sounds/SE_Synth_Chime.wav",
+    "sounds/SE_Synth_Beep.wav"
+  ],
+  "BgOverrides": [
+    "bgs/BG_SynthSunset.png",
+    "bgs/BG_SynthRoom.png",
+    "bgs/BG_SynthNight.png"
+  ],
+  "BgEffectOverrides": [],
+  "BgSpineOverrides": [],
+  "BgmOverrides": [
+    "bgm/Theme_Synth_01.wav",
+    "bgm/Theme_Synth_02.wav",
+    "bgm/Theme_Synth_03.wav"
+  ]
+}

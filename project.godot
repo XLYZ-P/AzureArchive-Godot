@@ -1,0 +1,27 @@
+; AzureArchive Godot 复刻
+; 详见 docs/DESIGN.md
+config_version=5
+
+[application]
+
+config/name="AzureArchive Godot"
+config/description="AzureArchive 的 Godot 4 复刻：支持 .aap 工程与 AA 资源包/自定义资源格式"
+run/main_scene="res://scenes/main/Main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://assets/icon.svg"
+
+[autoload]
+
+AAResources="*res://addons/aa_resources/aa_resources.gd"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
