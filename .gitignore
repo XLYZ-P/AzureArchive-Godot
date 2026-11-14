@@ -1,0 +1,8 @@
+.godot/
+*.import
+__pycache__/
+*.pyc
+/tmp/
+shots/
+tests/last_result.json
+build/

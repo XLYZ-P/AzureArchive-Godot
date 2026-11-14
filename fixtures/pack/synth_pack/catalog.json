@@ -1,0 +1,173 @@
+{
+  "format": "aa_pack",
+  "format_version": 1,
+  "id": "synth_pack",
+  "name": "Synthetic Demo Pack（合成资源包）",
+  "version": "1.0.0",
+  "author": "pack-dev (aa-godot)",
+  "description": "纯 Python 生成的合成 aa_pack fixture：渐变背景、正弦波 BGM/音效/语音、占位角色 PNG、Spine 占位目录。",
+  "game": "AzureArchive",
+  "bgs": [
+    {
+      "name": "BG_SynthSunset",
+      "file": "bgs/BG_SynthSunset.png",
+      "category": "合成背景"
+    },
+    {
+      "name": "BG_SynthRoom",
+      "file": "bgs/BG_SynthRoom.png",
+      "category": "合成背景"
+    },
+    {
+      "name": "BG_SynthNight",
+      "file": "bgs/BG_SynthNight.png",
+      "category": "合成背景"
+    }
+  ],
+  "bgm": [
+    {
+      "key": "Theme_Synth_01",
+      "file": "bgm/Theme_Synth_01.wav",
+      "title": "合成 BGM Theme_Synth_01"
+    },
+    {
+      "key": "Theme_Synth_02",
+      "file": "bgm/Theme_Synth_02.wav",
+      "title": "合成 BGM Theme_Synth_02"
+    },
+    {
+      "key": "Theme_Synth_03",
+      "file": "bgm/Theme_Synth_03.wav",
+      "title": "合成 BGM Theme_Synth_03"
+    }
+  ],
+  "sounds": [
+    {
+      "name": "SE_Synth_Click",
+      "file": "sounds/SE_Synth_Click.wav"
+    },
+    {
+      "name": "SE_Synth_Chime",
+      "file": "sounds/SE_Synth_Chime.wav"
+    },
+    {
+      "name": "SE_Synth_Beep",
+      "file": "sounds/SE_Synth_Beep.wav"
+    }
+  ],
+  "popups": [
+    {
+      "name": "popup_synth_01",
+      "file": "popups/popup_synth_01.png",
+      "category": "合成弹出图"
+    },
+    {
+      "name": "popup_synth_02",
+      "file": "popups/popup_synth_02.png",
+      "category": "合成弹出图"
+    }
+  ],
+  "characters": [
+    {
+      "identifier": "kai",
+      "display_name": "凯（合成）",
+      "nickname": "特殊现象调查部",
+      "dir": "characters/kai",
+      "portrait_mode": "png",
+      "face_files": {
+        "00": "characters/kai/00.png",
+        "01": "characters/kai/01.png",
+        "02": "characters/kai/02.png",
+        "03": "characters/kai/03.png",
+        "12": "characters/kai/12.png",
+        "99": "characters/kai/99.png"
+      },
+      "small_portrait": "characters/kai/kai-avatar.png"
+    },
+    {
+      "identifier": "yuzu",
+      "display_name": "柚（合成）",
+      "nickname": "游戏开发部",
+      "dir": "characters/yuzu",
+      "portrait_mode": "png",
+      "face_files": {
+        "00": "characters/yuzu/00.png",
+        "03": "characters/yuzu/03.png",
+        "halo_01": "characters/yuzu/halo_01.png"
+      },
+      "small_portrait": "characters/yuzu/yuzu-avatar.png"
+    },
+    {
+      "identifier": "spine_demo",
+      "display_name": "Spine 演示（合成）",
+      "nickname": "占位骨骼",
+      "dir": "characters/spine_demo",
+      "portrait_mode": "spine",
+      "spine_base": "characters/spine_demo/spine_demo",
+      "small_portrait": "characters/spine_demo/spine_demo-avatar.png"
+    },
+    {
+      "identifier": "narrator",
+      "display_name": "旁白（合成）",
+      "nickname": "",
+      "dir": "",
+      "portrait_mode": "none"
+    }
+  ],
+  "voices": [
+    {
+      "guid": "421e3665-33e2-4c36-90a1-8747e2b9db28",
+      "file": "voices/421e3665-33e2-4c36-90a1-8747e2b9db28.ogg",
+      "text": "合成语音示例 1"
+    },
+    {
+      "guid": "82897c82-cc14-455d-b127-9dc13ee377ee",
+      "file": "voices/82897c82-cc14-455d-b127-9dc13ee377ee.ogg",
+      "text": "合成语音示例 2"
+    },
+    {
+      "guid": "ee3a8b2d-abfc-45a1-bf64-da1f075617a3",
+      "file": "voices/ee3a8b2d-abfc-45a1-bf64-da1f075617a3.ogg",
+      "text": "合成语音示例 3"
+    }
+  ],
+  "fonts": [],
+  "ui": [
+    {
+      "name": "icon_synth",
+      "file": "ui/icon_synth.png"
+    }
+  ],
+  "bg_effects": [
+    {
+      "name": "SynthSparkle",
+      "type": "placeholder",
+      "params": {
+        "color": "#ffd166",
+        "duration": 1.2
+      }
+    }
+  ],
+  "native_characters": [
+    {
+      "key": "모모이",
+      "display_name": "桃井",
+      "nickname": "游戏开发部"
+    },
+    {
+      "key": "미도리",
+      "display_name": "绿",
+      "nickname": "游戏开发部"
+    },
+    {
+      "key": "케이",
+      "display_name": "凯",
+      "nickname": "特殊现象调查部"
+    },
+    {
+      "key": "아리스",
+      "display_name": "爱丽丝",
+      "nickname": "游戏开发部"
+    }
+  ]
+}

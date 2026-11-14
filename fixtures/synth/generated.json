@@ -1,0 +1,28 @@
+{
+  "generator": "tests/make_fixtures.py",
+  "generator_version": 2,
+  "note": "由 python3 tests/make_fixtures.py 确定性生成；test_synth_fixtures.gd 校验哈希",
+  "xxh32_vectors": {
+    "": 0,
+    "synth_bg": 3927605985,
+    "synth_bg_alt": 2990611040,
+    "BG_RuinUndergroundPassage": 3558049603
+  },
+  "files": {
+    "overrides/bgs/synth_bg.png": "05ae37e45a34be9a41921e2d3145c629554734dca85365a5f2a00cf1c01351b0",
+    "overrides/manifest.json": "120484d5313bde072b8a5455d76d34b07d7a14636afed1d686a42ccf038490d4",
+    "pack/bgm/synth_bgm.wav": "bf65913366aa44d1f2f7f0b19373c8d62bdfac28f8b63903130441f3b0bd09eb",
+    "pack/bgs/synth_bg.png": "f6ded6c4ee1860a2a5587f63492a69105cf9b2717ccfa020668d14b877a2fdf7",
+    "pack/bgs/synth_bg_alt.png": "5f7c0d5ca66782be028bc9e162f204c30e1765c66bbea3c769974b4511c2d427",
+    "pack/catalog.json": "d63c8a3f1bcb061b3d673092e3507640d36bcb529a85449dad2f253942355fc3",
+    "pack/characters/QA_HERO/00-avatar.png": "9b96fc55944f4d6fe12ffcb15341a39b7bd4cdbcb5016161f603c98e967ff41d",
+    "pack/characters/QA_HERO/00.png": "c9bd80f227203fb6ccfdb6a06a81e20f718d2419dcd63c216ee645ee8dff4699",
+    "pack/manifest.json": "b902064954c8bb0c4f24b92c1b7112f8c2c9eba0abfda4da25de493944560b9f",
+    "pack/popups/synth_popup.png": "67f53cf3bd33ea14b50aec16826a0f59ad4caafcf22b884d6447a7b10ac251b6",
+    "pack/sounds/SE_QA_01.wav": "77594863d7be37b59c0223f5248c5aaed0daaf34118dbc48f4b6d3438b00df0b",
+    "project_local/bgs/synth_bg.png": "5f7c0d5ca66782be028bc9e162f204c30e1765c66bbea3c769974b4511c2d427",
+    "project_local/manifest.json": "120484d5313bde072b8a5455d76d34b07d7a14636afed1d686a42ccf038490d4",
+    "smoke.aap": "c61ddc8ba3cb689d5e77ad1af177be7b522e030d7621f2d27d827eb31b8551c7",
+    "smoke_fast.aap": "e1f4e011dfd8e23392b8f39edd03cf37ee05f26e67c0c0e191b46a962e37ea89"
+  }
+}
