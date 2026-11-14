@@ -43,7 +43,13 @@
 | Spine 骨骼动画运行时 | ⚠️ 静态帧/atlas 兜底 + PNG 立绘完整支持；骨骼动画接口预留 |
 | AA 编译产物 `.aas`（FlatBuffers 二进制） | ❌ 暂不解析（无公开 schema），直接播放 `.aap` |
 
-## 已构建的版本
+## 已构建的版本（GitHub Releases）
+
+> 仓库：<https://github.com/XLYZ-P/AzureArchive-Godot>（private）
+> 发布页：<https://github.com/XLYZ-P/AzureArchive-Godot/releases/tag/v1.0.0>
+> Release 附件：`AzureArchiveGodot-windows.exe`、`AzureArchive-Godot-android.apk`、`AzureArchive-Godot-source.zip`
+
+
 
 | 平台 | 产物 | 说明 |
 |---|---|---|
